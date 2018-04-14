@@ -1,0 +1,28 @@
+body {
+	font-family: verdana;
+	font-size: .75em;
+	margin-left: 20px;
+}
+
+h1 {
+	color: gray;
+	font-size: 1.5em;
+}
+
+#main {
+	border: 1px ridge gray;
+	padding-left: 20px;
+	max-width:75%;
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	font-style: italic;
+}
+
+p {
+	font-style: italic;
+}
+
+

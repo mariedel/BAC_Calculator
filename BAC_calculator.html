@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blood Alcohol Calculator</title>
+  <meta name="description" content="Blood Alcohol Calculator">
+  <meta name="author" content="Right Direction Services LLC">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./scripts/calculate.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+ <h1>Calculate your Blood Alcohol Level</h1> 
+ <div id="main">
+ <div id="drink">
+ <p>For the purpose of this calculator 1 drink = <br>
+ <ul>
+ <li>12oz of regular beer</li>
+ <li>1oz of 100 proof liquor</li>
+ <li>1.5oz of 80 proof liquor</li>
+ </ul></p>
+ 
+ <form>
+ <input type="radio" name="gender" value="male" checked> Male
+ <input type="radio" name="gender" value="female"> Female<br><br>
+ What is your weight in lbs:<br> <input type="text" id="weight" name="weight"><br><br>
+ How many drinks did you have:<br> <input type="text" id="drinks" name="drinks"><br><br>
+ Over how many hours did you drink:<br> <input type="text" id="time" name="time"><br><br>
+ <input type="button" name="calculate" id="calculate" value="Calculate">
+ <input type="reset" id="reset" value="Reset"><br><br>
+ Your Blood Alcohol Level:<input type="text" name="bac" id="bac"><br><br>
+ More information:<br>
+ <textarea id= more rows=10 cols=40 wrap=virtual></textarea>
+ </form>
+ </div> 
+ </div>
+ Feel free to use our BAC Calculator on  your site
+ 
+</body>
+</html>
